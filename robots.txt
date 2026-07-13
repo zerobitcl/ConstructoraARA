@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /config/
+Disallow: /templates/
+Sitemap: https://www.ara-chile.cl/sitemap.xml
