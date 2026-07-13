@@ -1,11 +1,20 @@
+# Constructora Ara-Chile — Hostinger
+# La redirección a www/HTTPS solo aplica al dominio final.
+# En dominio temporal (*.hostingersite.com) NO redirige.
+
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /
+
+    # Solo unificar HTTPS + www cuando el host es ara-chile.cl
+    RewriteCond %{HTTP_HOST} ^(www\.)?ara-chile\.cl$ [NC]
     RewriteCond %{HTTPS} off [OR]
     RewriteCond %{HTTP_HOST} !^www\. [NC]
-    RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
     RewriteRule ^(.*)$ https://www.ara-chile.cl/$1 [L,R=301]
 </IfModule>
+
+# Priorizar index.html sobre index.php (útil si hay WordPress residual)
+DirectoryIndex index.html index.php
 
 <IfModule mod_deflate.c>
     AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/x-javascript application/xml image/svg+xml
