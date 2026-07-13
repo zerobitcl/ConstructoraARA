@@ -1,0 +1,10 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Camión tolva">
+  <rect width="1200" height="800" fill="#171717"/>
+  <rect x="0" y="540" width="1200" height="260" fill="#1f1f1f"/>
+  <rect x="180" y="300" width="520" height="220" fill="#3a3a3a"/>
+  <rect x="700" y="360" width="260" height="160" fill="#2c2c2c"/>
+  <rect x="920" y="400" width="90" height="80" fill="#e85d04"/>
+  <circle cx="320" cy="560" r="62" fill="#111"/><circle cx="520" cy="560" r="62" fill="#111"/><circle cx="820" cy="560" r="62" fill="#111"/>
+  <text x="60" y="80" fill="#f5b400" font-family="Arial,sans-serif" font-size="36" font-weight="700">CAMIÓN TOLVA</text>
+  <text x="60" y="120" fill="#a8a8a3" font-family="Arial,sans-serif" font-size="22">Logística de faena</text>
+</svg>

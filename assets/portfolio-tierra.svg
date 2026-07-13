@@ -1,0 +1,8 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Movimiento de tierra">
+  <rect width="1200" height="800" fill="#181818"/>
+  <polygon points="0,500 300,280 520,420 780,220 1200,380 1200,800 0,800" fill="#3b3428"/>
+  <polygon points="0,620 420,480 700,560 1200,430 1200,800 0,800" fill="#2a241c"/>
+  <rect x="0" y="0" width="1200" height="180" fill="#222"/>
+  <text x="60" y="80" fill="#f5b400" font-family="Arial,sans-serif" font-size="36" font-weight="700">MOVIMIENTO DE TIERRA</text>
+  <text x="60" y="120" fill="#a8a8a3" font-family="Arial,sans-serif" font-size="22">+1.5M m³ ejecutados</text>
+</svg>

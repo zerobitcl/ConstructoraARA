@@ -1,0 +1,16 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Obra de gaviones">
+  <rect width="1200" height="800" fill="#1c1c1c"/>
+  <rect x="0" y="0" width="1200" height="280" fill="#2a3238"/>
+  <g fill="#4a4a44" stroke="#6a6a62" stroke-width="2">
+    <rect x="80" y="320" width="200" height="120"/><rect x="280" y="320" width="200" height="120"/>
+    <rect x="480" y="320" width="200" height="120"/><rect x="680" y="320" width="200" height="120"/>
+    <rect x="880" y="320" width="200" height="120"/>
+    <rect x="180" y="440" width="200" height="120"/><rect x="380" y="440" width="200" height="120"/>
+    <rect x="580" y="440" width="200" height="120"/><rect x="780" y="440" width="200" height="120"/>
+    <rect x="80" y="560" width="200" height="120"/><rect x="280" y="560" width="200" height="120"/>
+    <rect x="480" y="560" width="200" height="120"/><rect x="680" y="560" width="200" height="120"/>
+    <rect x="880" y="560" width="200" height="120"/>
+  </g>
+  <text x="60" y="80" fill="#f5b400" font-family="Arial,sans-serif" font-size="36" font-weight="700">GAVIONES</text>
+  <text x="60" y="120" fill="#a8a8a3" font-family="Arial,sans-serif" font-size="22">Contención · Protección de cauces</text>
+</svg>
